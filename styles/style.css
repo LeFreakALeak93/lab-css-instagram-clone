@@ -8,3 +8,19 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.background-container {
+  background-image: linear-gradient(to bottom, #4E7699 0%, #4E7699 50%,
+  #FFFFFF 50%, #FFFFFF 100%);
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instagram-info-images button {
+  background-color: #4D7598; 
+}
